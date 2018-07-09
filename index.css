@@ -1,0 +1,141 @@
+* {
+    list-style: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+div {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* font-family: 'Lato', sans-serif; */
+}
+
+body {
+    min-width: 320px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.df {
+    display: flex;
+}
+
+.ffrn {
+    flex-flow: row nowrap;
+}
+
+.ffrw {
+    flex-flow: row wrap;
+}
+
+.tac {
+    text-align: center;
+}
+
+.ko-bg-dark {
+    background-color: #085873;
+}
+
+header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-flexbox;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    -o-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    min-height: 100%;
+    background: url("/1.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* min-height: 100%; */
+    background-color: #1c2235;
+}
+
+nav {
+    flex-grow: 0;
+    background-color: #1c2235;
+    height: 64px;
+    text-align: center;
+}
+
+.header-content {
+    flex-grow: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-flexbox;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    -o-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    min-height: 100%;
+    padding-top: 80px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: center;
+}
+
+.header-content div {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.header-content>*:not(div) {
+    text-align: center;
+}
+
+section {
+    height: 400px;
+    color: #1c1c1c;
+}
+
+section:nth-child(even) {
+    background: #1c2235;
+    color: #fff;
+}
